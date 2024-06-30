@@ -22,9 +22,18 @@ Realistically, the file management portion of `ichor` (as well as the workload m
 
 ## Getting Started
 ---
-The namespace package `ichor` is divided into three parts, `ichor.core`, `ichor.hpc`, and `ichor.cli`. The `ichor.core` package contains classes and functions which make it easy to handle a very large number of files, perform many calculations with the outputs contained in the file, as well as aid with machine learning force field development. The `ichor.hpc` package is used to submit jobs on compute clusters (SGE/SLURM). The `ichor.cli` package provides a simple to use command line interface (CLI), providing an easy access to access the most commonly used tools from ichor.
+The namespace package `ichor` is divided into three parts, `ichor.core`, `ichor.hpc`, and `ichor.cli`.
 
-**You will need to create a `ichor_config.yaml` in your home directory for configuration settings relating to compute clusters, see the documentation for examples.**
+### `ichor.core`
+The `ichor.core` package contains classes and functions which make it easy to handle a very large number of files, perform many calculations with the outputs contained in the file, as well as aid with machine learning force field development.
+
+### `ichor.hpc`
+The `ichor.hpc` package is used to submit jobs on compute clusters (SGE/SLURM).
+
+### `ichor.cli`
+The `ichor.cli` package provides a simple to use command line interface (CLI), providing an easy access to access the most commonly used tools from ichor.
+
+**You will need to have an `ichor_config.yaml` file in your home directory for configuration settings relating to HPC clusters, refer to the documentation for examples. An example `ichor_config.yaml` is provided in the repository.**
 
 ## Papers
 

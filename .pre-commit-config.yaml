@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.2.0
+    rev: v4.6.0
     hooks:
     -   id: check-byte-order-marker
     -   id: check-case-conflict
@@ -11,7 +11,7 @@ repos:
     -   id: trailing-whitespace
     -   id: debug-statements
 -   repo: https://github.com/omnilib/ufmt
-    rev: v2.0.0
+    rev: v2.7.0
     hooks:
     -   id: ufmt
         additional_dependencies:
@@ -19,13 +19,13 @@ repos:
         - usort == 1.0.3
         exclude: ^(build/*)|(docs/*)|(examples/*)|(docs/build)
 -   repo: https://github.com/pycqa/flake8
-    rev: 4.0.1
+    rev: 7.1.0
     hooks:
     -   id: flake8
         args: [--config=setup.cfg]
         exclude: ^(examples/*)|(docs/*)|(docs/build)
 -   repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 2.1.6
+    rev: 3.0.0
     hooks:
     -   id: require-ascii
         exclude: ^(examples/*)|(.github/ISSUE_TEMPLATE/*)|(docs/source/_static/*)|(docs/build)
@@ -33,7 +33,7 @@ repos:
     -   id: forbid-binary
         exclude: ^(examples/*)|(example_files/*)|(docs/build)
 -   repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.1.13
+    rev: v1.5.5
     hooks:
     -   id: forbid-crlf
         exclude: (docs/build)

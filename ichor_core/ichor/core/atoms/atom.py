@@ -202,7 +202,8 @@ class Atom(VarReprMixin, Coordinates3D):
 
     @property
     def xyz_string(self) -> str:
-        """Returns the atom type and coordinates for one Atom instance. This is used to write out an xyz file, which expects
+        """Returns the atom type and coordinates for one Atom instance.
+        This is used to write out an xyz file, which expects
         entries in the form of atom_type x_coordinate, y_coordinate, z_coordinate
 
         :return: coordinate string of atom with atom type (atom.type x, y, z)
